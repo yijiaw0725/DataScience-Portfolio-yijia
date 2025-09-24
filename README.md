@@ -36,7 +36,7 @@ All datasets are either public, no proprietary or confidential data is included.
 
 **Tech:** Python, pandas, scikit-learn, seaborn
 
-### 4. [Housing Price Prediction](./housing price)
+### 4. [Housing Price Prediction](./Housing%20Price (tidymodels))
 **Goal:** Predict home sale prices using the Kaggle Housing Prices dataset.
 
 **Highlights:**  
