@@ -36,10 +36,22 @@ All datasets are either public, no proprietary or confidential data is included.
 
 **Tech:** Python, pandas, scikit-learn, seaborn
 
+### 4. [Housing Price Prediction](./housing price)
+**Goal:** Predict home sale prices using the Kaggle Housing Prices dataset.
+
+**Highlights:**  
+- Cleaned and standardized data; converted categorical “yes/no” fields to factors.
+- Modeled log(price) for stability; back-transformed predictions to the original scale.
+- Built a tidymodels recipe with one-hot encoding, normalization, and interactions (area × bedrooms, area × bathrooms).
+- Compared Lasso, Ridge, and Random Forest using 10-fold CV; selected the best by RMSE (Ridge in this run).
+- Reported RMSE/MAE/R² on the original price scale; saved a deployable workflow (housing_model_final.rds) and included a minimal scoring example.
+
+ **Tech:** R, tidymodels (recipes, workflows), glmnet, ranger, yardstick, rsample, ggplot2.
+
 ---
 
 ## Skills Demonstrated
-- **Programming & Data Handling:** Python, pandas, NumPy  
+- **Programming & Data Handling:** Python, R, pandas, NumPy  
 - **Machine Learning:** scikit-learn, XGBoost, Random Forest, Gradient Boosting  
 - **Data Visualization:** matplotlib, seaborn, plotly  
 
@@ -47,4 +59,4 @@ All datasets are either public, no proprietary or confidential data is included.
 ---
 
 ## Contact
-- **Email:** [wangyijia0725@gmail.com]
+- **Email:** [yijiaw0725@gmail.com]
